@@ -1,10 +1,8 @@
 {
-  "extends": [
-    "react-app",
-    "react-app/jest"
-  ],
-  "rules": {
-    "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-function-return-type": "off"
+  "extends": ["next/core-web-vitals"],
+  "settings": {
+    "next": {
+      "rootDir": "./"
+    }
   }
-} 
+}
